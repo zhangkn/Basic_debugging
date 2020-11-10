@@ -17,9 +17,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    double myNumber = 7.70;
+    
+    NSLog(@"number: %@", @(myNumber));
     
     
-    
+    NSLog(@"number class: %@", @(myNumber).class);
+
     
 }
 
