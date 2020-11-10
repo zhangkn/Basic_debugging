@@ -102,7 +102,9 @@
 		04CE84B025594AB300A28428 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KN;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "https://kunnan.blog.csdn.net/    ";
 				TargetAttributes = {
 					04CE84B725594AB300A28428 = {
 						CreatedOnToolsVersion = 12.0;
