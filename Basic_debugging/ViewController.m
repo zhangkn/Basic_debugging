@@ -17,7 +17,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    NSLog( @"calling: %s", __PRETTY_FUNCTION__ );
 
+    [self testboxing_capability];
     
 }
 /**
@@ -26,6 +28,10 @@
  */
 - (void)testboxing_capability{
     
+    NSLog(@"%@", [NSThread callStackSymbols]);
+
+//    NSLog( @"testboxing_capability calling: %s", __PRETTY_FUNCTION__ );
+
     
     
     double myNumber = 7.70;
